@@ -40,3 +40,6 @@ Fall 2025
 | 28-11-2025 | Black                 | (Black Friday) Interpret the theme of Black. The map can be purely monochromatic, represent absence/darkness (e.g., light pollution), or relate to themes of consumption.                                     |
 | 29-11-2025 | Raster                | Challenge Classic: Map using raster data. Focus on satellite imagery, elevation models (DEMs), land cover, or pixel-based art.                                     |
 | 30-11-2025 | Makeover              | Take a map you made during the month or an older piece and redesign it. Focus on improving the aesthetics, clarity, or data communication.        |
+
+
+Reference: official 30 day map challenge website [https://30daymapchallenge.com/](https://30daymapchallenge.com/)
