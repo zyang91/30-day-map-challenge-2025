@@ -1,8 +1,8 @@
 # Day 4 of 30 Day Map Challenge - My Data
 
-**Day 4 (My Data)**: I created a map visualizing my spatial footprint across the United States using R. This map displays locations I've visited throughout the country, with points represented as blue lines connecting to their geographic positions. The visualization uses a two-panel approach: a main map showing the continental US and an inset map for Hawaii, providing comprehensive geographic coverage of my travels.
+**Day 4 (My Data)**: I created a map visualizing my spatial footprint across the United States using R. This map displays locations I've visited throughout the country, with points represented to their geographic positions. The visualization employs a two-panel approach, featuring a main map of the continental US and an inset map of Hawaii, which provides comprehensive geographic coverage of my travels.
 
-The map employs custom coordinate reference systems (CRS 5070 for the mainland and CRS 6633 for Hawaii) to ensure accurate spatial representation and uses elegant typography with the Playfair Display font for a polished aesthetic. The data was manually created using geojson.io, capturing 51 distinct locations across multiple states from coast to coast.
+The map utilizes custom coordinate reference systems (CRS 5070 for the mainland and CRS 6633 for Hawaii) to ensure accurate spatial representation. It employs elegant typography with the Playfair Display font for a polished aesthetic. The data was manually created using [geojson.io](geojson.io).
 
 ![](day4_mydata.png)
 
