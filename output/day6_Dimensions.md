@@ -6,6 +6,11 @@ The visualization employs advanced ray-tracing techniques to render realistic li
 
 ![](day6-demension.png)
 
+**Acknowledgement**:
+
+Special thanks for the tutorial made possible by **Niloy Biswas**: https://medium.com/@niloy.swe/how-to-create-a-3d-population-density-map-in-r-33dfaf7a71d7
+
+
 **Technical Implementation:**
 - **sf (Simple Features)** - R package for handling spatial vector data and geometric operations
 - **stars** - R package for spatiotemporal arrays, used for rasterizing the population data
@@ -23,4 +28,3 @@ The visualization employs advanced ray-tracing techniques to render realistic li
 
 **Coordinate Reference System:**
 - `EPSG:3857` (Web Mercator) for consistent visualization and web compatibility
-
