@@ -28,6 +28,3 @@ Special thanks for the tutorial made possible by **Niloy Biswas**: https://mediu
 
 **Coordinate Reference System:**
 - `EPSG:3857` (Web Mercator) for consistent visualization and web compatibility
-
-
-
