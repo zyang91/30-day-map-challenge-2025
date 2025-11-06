@@ -1,0 +1,2 @@
+data/day6/boundaries.gpkg filter=lfs diff=lfs merge=lfs -text
+data/day6/germany.gpkg filter=lfs diff=lfs merge=lfs -text
