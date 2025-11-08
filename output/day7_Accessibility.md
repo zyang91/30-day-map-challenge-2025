@@ -1,10 +1,12 @@
 # Day 7 of 30 Day Map Challenge - Accessibility
 
-**Day 7 (Accessibility)**: I created an interactive accessibility map comparing travel times from the Weitzman School of Design at the University of Pennsylvania (210 S 34th St, Philadelphia, PA 19104) at different times of day. This visualization demonstrates how accessibility changes between midday (12:00 PM) and evening rush hour (5:30 PM) using isochrone analysis. The map shows areas reachable within 5, 10, and 15 minutes from the location, revealing how traffic patterns significantly impact urban accessibility.
+**Day 7 (Accessibility)**: I built an interactive map that compares door-to-door travel times from the Weitzman School of Design (210 S 34th St, Philadelphia, PA 19104) at two moments in the day. Using isochrone analysis, it visualizes areas reachable by car within 5, 10, and 15 minutes at midday (12:00 PM) versus the evening peak (5:30 PM), revealing how congestion reshapes urban accessibility.
 
-The visualization employs a side-by-side comparison using Mapbox GL JS, allowing users to interactively explore the differences between noon and rush hour travel times. The color-coded isochrones (red for 5 minutes, blue for 10 minutes, green for 15 minutes) make it easy to understand how the accessible area shrinks during peak traffic hours, highlighting the importance of time-of-day considerations in urban planning and accessibility analysis.
+Powered by Mapbox GL JS, the map presents a side-by-side view of the two scenarios. Color-coded isochrones—red (5 minutes), blue (10 minutes), and green (15 minutes)—make it clear how the accessible footprint contracts during rush hour, underscoring why time-of-day effects matter for urban planning and accessibility analysis.
 
-![](day7-accessbility.png)
+Explore the interactive map at [https://zyang91.github.io/30-day-map-challenge-2025/day7-accessbility.html](https://zyang91.github.io/30-day-map-challenge-2025/day7-accessbility.html) hosted by GitHub
+
+![Screen shot of the Map](day7-accessbility.png)
 
 **Technical Implementation:**
 - **mapboxapi** - R package for accessing Mapbox APIs, including geocoding and isochrone services
