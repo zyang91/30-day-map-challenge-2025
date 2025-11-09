@@ -6,7 +6,7 @@
 
 ![Hand-drawn map of Binghamton University](day9-analog.png)
 
-This hand-drawn map represents the actual spatial layout of Binghamton University's campus, including key buildings, pathways, and landmarks. The map was created by hand to capture the authentic geography and spatial relationships of the campus.
+This hand-drawn map accurately represents the spatial layout of Binghamton University's campus, but please forgive my poor hand-drawing skills.
 
 ## Comparison with AI-Generated Map
 
