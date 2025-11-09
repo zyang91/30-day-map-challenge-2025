@@ -1,6 +1,6 @@
 # Day 9 of 30 Day Map Challenge - Analog
 
-**Day 9 (Analog)**: For this challenge, I created a hand-drawn map of Binghamton University campus. This analog map was created using traditional pen and paper methods, stepping away from the digital tools typically used in cartography. The hand-drawn approach allows for a more artistic and personal interpretation of the campus layout.
+**Day 9 (Analog)**: For this challenge, I created a hand-drawn map of the Binghamton University campus, where I finished my undergraduate degree. This analog map was created using traditional pen-and-paper methods. The hand-drawn approach allows for a more artistic and personal interpretation of the campus layout.
 
 ## Hand-Drawn Map
 
