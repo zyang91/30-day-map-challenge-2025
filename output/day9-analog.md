@@ -18,7 +18,7 @@ For comparison, I also experimented with asking ChatGPT to generate a hand-drawn
 
 - **Spatial Accuracy**: The hand-drawn map maintains the correct spatial relationships between buildings and campus features, while the ChatGPT-generated version shows a completely incorrect layout that does not match the actual campus geography.
   
-- **Geographic Fidelity**: The traditional hand-drawn approach, despite being less polished artistically, preserves the essential geographic information and navigational utility of the campus map.
+- **Geographic Fidelity**: The traditional hand-drawn approach preserves the essential geographic information and navigational utility of the campus map, despite its being poorly drawn. The AI map is more aesthetically pleasing but lacks accuracy and effective spatial representation.
 
 - **AI Limitations**: This comparison highlights an important limitation of current AI image generation models - while they can produce aesthetically pleasing results in a particular style, they often fail to maintain spatial accuracy and geographic correctness, which are fundamental requirements for functional maps.
 
