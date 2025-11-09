@@ -12,7 +12,7 @@ This hand-drawn map accurately represents the spatial layout of Binghamton Unive
 
 For comparison, I also experimented with asking ChatGPT to generate a hand-drawn style map of Binghamton University. While the AI produced an interesting artistic interpretation, the spatial layout is completely inaccurate:
 
-![ChatGPT generated hand-drawn style map](day9-chatgpt-analog.png)
+![Day 9 Chatgpt generated](https://raw.githubusercontent.com/zyang91/30-day-map-challenge-2025/main/output/day9-chatgpt-analog.png)
 
 ### Key Observations:
 
