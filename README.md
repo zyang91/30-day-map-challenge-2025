@@ -1,4 +1,4 @@
-# 30 Day Map Chanllenge 2025
+# 30 Day Map Challenge 2025
 **Zhanchao Yang**
 > Master of City Planning & Master of Urban Spatial Analytics<br>
 > Weitzman School of Design <br>
