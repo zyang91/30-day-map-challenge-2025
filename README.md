@@ -9,6 +9,7 @@ Fall 2025
 ## Interactive Map
 - [Day 7: Accessibility](https://zyang91.github.io/30-day-map-challenge-2025/day7-accessibility.html)
 - [Day 11: Minimal](https://zyang91.github.io/30-day-map-challenge-2025/day11-minimal.html)
+- [Day 12: Map from 2125](https://zyang91.github.io/30-day-map-challenge-2025/day12-2125.html)
 
 ![Themes for the maps. See more below.](https://raw.githubusercontent.com/tjukanovt/30DayMapChallenge/main/images/flyers/30dmc_2025.png)
 
