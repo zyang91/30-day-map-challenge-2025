@@ -17,5 +17,4 @@ The wildfire risk data comes from FEMA's National Risk Index (NRI), which provid
 - **Wildfire Risk Data**: [FEMA National Risk Index (NRI)](https://hazards.fema.gov/nri/wildfire) - County-level wildfire risk scores (HWAV_RISKS field)
 - **California Boundary**: US Census Bureau TIGER/Line Shapefiles via the tigris package
 
-**Coordinate Reference System:**
 - `EPSG:3310` (California Albers Equal Area) for accurate representation of California geography
