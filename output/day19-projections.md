@@ -4,6 +4,7 @@
 
 ![Waterman Butterfly Projection](https://upload.wikimedia.org/wikipedia/commons/f/f9/Waterman_projection.png)
 
+### My Version
 ![](day19-projections.png)
 
 **Technical Implementation:**
