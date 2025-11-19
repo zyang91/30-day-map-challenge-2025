@@ -16,7 +16,7 @@ world <- ne_countries(scale = "medium",returnclass = "sf") %>%
 
 ggplot() +
   geom_sf(data = world, fill = "tan", color = "antiquewhite") + 
-  labs(title = "The World on the Waterman Butterfly Projection",
+  labs(title = "The World on the Peirce Quincuncial Projection",
        subtitle = "Visulized by Zhanchao Yang"
 ) +
   theme_minimal() +
