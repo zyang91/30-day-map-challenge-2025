@@ -1,6 +1,6 @@
 # Day 19 of 30 Day Map Challenge - Projections
 
-**Day 19 (Projections)**: I created a world map using the Waterman Butterfly projection, a unique polyhedral map projection that aims to minimize distortion by representing the Earth's surface on an unfolded octahedron. The Waterman Butterfly projection, also known as the Peirce quincuncial projection in square form, was developed by Steve Waterman as an interrupted projection that resembles a butterfly shape when displayed. This projection is particularly notable for its aesthetic appeal and relatively low overall distortion, making it an interesting alternative to traditional rectangular world map projections while maintaining recognizable continental shapes.
+**Day 19 (Projections)**: I created a world map using the Peirce quincuncial projection. The Peirce quincuncial projection is the conformal map projection from the sphere to an unfolded square dihedron, developed by Charles Sanders Peirce in 1877. Each octant projects onto an isosceles right triangle, with eight such triangles arranged into a square. The name quincuncial refers to this arrangement: the north pole at the center and quarters of the south pole in the corners form a quincunx pattern like the pips on the five faces of a traditional die. The projection has the distinctive property that it forms a seamless square tiling of the plane, conformal except at four singular points along the equator. (**From [Wikipedia](https://en.wikipedia.org/wiki/Peirce_quincuncial_projection)**)
 
 ![](day19-projections.png)
 
@@ -12,7 +12,4 @@
 
 **Data Sources:**
 - **Geographic Boundaries**: [Natural Earth](https://www.naturalearthdata.com/) - Medium-scale country boundaries accessed via the rnaturalearth package
-- **Projection**: Waterman Butterfly (Peirce quincuncial) projection with custom parameters (lon_0=25, shape=square)
-
-**Reference Map**
-![Waterman Butterfly Projection on Wikipedia](https://upload.wikimedia.org/wikipedia/commons/f/f9/Waterman_projection.png)
+- **Projection**: Peirce quincuncial projection with custom parameters (lon_0=25, shape=square)
