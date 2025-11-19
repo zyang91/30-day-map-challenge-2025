@@ -2,9 +2,6 @@
 
 **Day 19 (Projections)**: I created a world map using the Waterman Butterfly projection, a unique polyhedral map projection that aims to minimize distortion by representing the Earth's surface on an unfolded octahedron. The Waterman Butterfly projection, also known as the Peirce quincuncial projection in square form, was developed by Steve Waterman as an interrupted projection that resembles a butterfly shape when displayed. This projection is particularly notable for its aesthetic appeal and relatively low overall distortion, making it an interesting alternative to traditional rectangular world map projections while maintaining recognizable continental shapes.
 
-![Waterman Butterfly Projection](https://upload.wikimedia.org/wikipedia/commons/f/f9/Waterman_projection.png)
-
-### My Version
 ![](day19-projections.png)
 
 **Technical Implementation:**
@@ -16,3 +13,6 @@
 **Data Sources:**
 - **Geographic Boundaries**: [Natural Earth](https://www.naturalearthdata.com/) - Medium-scale country boundaries accessed via the rnaturalearth package
 - **Projection**: Waterman Butterfly (Peirce quincuncial) projection with custom parameters (lon_0=25, shape=square)
+
+**Reference Map**
+![Waterman Butterfly Projection on Wikipedia](https://upload.wikimedia.org/wikipedia/commons/f/f9/Waterman_projection.png)
