@@ -55,7 +55,7 @@ plot<-ggplot() +
   geom_sf(data = de_rv, aes(size = I(sz)), color = "#04005e", fill = NA, show.legend = FALSE) +
   coord_sf(datum = NA) +
   labs(
-    title   = "Daleware Hydrology",
+    title   = "Delaware Hydrology",
     subtitle = "Made by Zhanchao Yang",
     caption = "Inspired by Bob Rudis"
   ) +
@@ -68,4 +68,4 @@ plot<-ggplot() +
     panel.background = element_rect(color = "#04005e", fill = "#04005e")
   )
 
-ggsave(plot, filename = "Daleware-water-2.png", width = 8, height = 10, dpi = 300)
+ggsave(plot, filename = "Delaware-water-2.png", width = 8, height = 10, dpi = 300)
