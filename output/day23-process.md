@@ -1,6 +1,6 @@
 # Day 23 of 30 Day Map Challenge - Process
 
-**Day 23 (Process)**: I created a comprehensive R Markdown tutorial that documents the complete process of creating the Day 3 polygon choropleth map. This tutorial showcases how to build a population density visualization for Philadelphia using R, covering everything from data acquisition through the tidycensus package to the final aesthetic design with ggplot2. The tutorial demonstrates best practices in spatial data handling, coordinate system transformations, population density calculations, and the integration of external geographic layers like water features.
+**Day 23 (Process)**: I created a comprehensive R Markdown tutorial that documents the complete process of creating the Day 3 polygon choropleth map. This tutorial showcases how to build a population density visualization using R, covering everything from data acquisition through the tidycensus package to the final aesthetic design with ggplot2. The tutorial demonstrates best practices in spatial data handling, coordinate system transformations, population density calculations, and the integration of external geographic layers like water features.
 
 This tutorial was created with assistance from Gemini 3, which helped convert my original Day 3 mapping code into a well-structured, educational R Markdown document.
 
