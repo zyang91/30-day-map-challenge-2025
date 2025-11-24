@@ -15,29 +15,15 @@
 - **grid** - R package for low-level graphics operations
 - **systemfonts** - R package for font management in R graphics
 
-**Cartographic Approach:**
-- **Projection**: EPSG:5070 (NAD83 / Conus Albers) - An equal-area projection appropriate for visualizing the continental United States
-- **Geographic Scope**: Continental United States (excluding Alaska and Hawaii)
-- **Data Processing**: Places were filtered to match seven European city names, then joined with their country of origin
-- **Visualization Strategy**: Each European city name is assigned a distinct color, with point locations represented at place centroids for clearer visualization
-- **Color Palette**: Custom colors for each city name:
-  - Paris: Teal (#52b69a)
-  - London: Purple (#5c4d7d)
-  - Rome: Magenta (#a01a58)
-  - Oxford: Forest Green (#40916c)
-  - Cambridge: Brown (#a9714b)
-  - Manchester: Orange (#ff8847)
-  - Milan: Navy Blue (#05668d)
-
 **Data Sources:**
 - **Place Data**: [U.S. Census Bureau TIGER/Line Shapefiles 2024](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html) - Cartographic boundary files for incorporated places and census-designated places (CDPs)
 - **State Boundaries**: [U.S. Census Bureau TIGER/Line Shapefiles 2024](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html) - Generalized state boundary files
 
 **European Cities Featured:**
-- **Paris** (France) - Multiple US places named after the capital of France
-- **London** (United Kingdom) - US communities named after England's capital
-- **Rome** (Italy) - American places inspired by the Eternal City
-- **Oxford** (United Kingdom) - US places named after the famous university town
-- **Cambridge** (United Kingdom) - American communities named after another renowned university city
-- **Manchester** (United Kingdom) - US places named after the historic industrial city
-- **Milan** (Italy) - American places named after Italy's fashion and design capital
+- **Paris** (France) 
+- **London** (United Kingdom) 
+- **Rome** (Italy) 
+- **Oxford** (United Kingdom) 
+- **Cambridge** (United Kingdom) 
+- **Manchester** (United Kingdom) 
+- **Milan** (Italy) 
