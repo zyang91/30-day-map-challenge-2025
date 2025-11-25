@@ -15,8 +15,3 @@
 **Data Sources:**
 - **Median Household Income**: [U.S. Census Bureau American Community Survey (ACS) 2023 1-Year Estimates](https://www.census.gov/programs-surveys/acs) - Variable B19013_001 representing median household income by state
 - **Educational Attainment**: [U.S. Census Bureau American Community Survey (ACS) 2023 1-Year Estimates](https://www.census.gov/programs-surveys/acs) - Variable S1501_C02_015E representing the percentage of population with Bachelor's degree or higher
-
-**Visualization Details:**
-- **Color Palette**: DkViolet bivariate palette with 3x3 dimensional classification
-- **Geographic Scope**: Continental United States (48 states, excluding Alaska and Hawaii)
-- **Classification Method**: Quantile-based classification for both variables
