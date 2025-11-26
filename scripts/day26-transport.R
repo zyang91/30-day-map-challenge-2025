@@ -89,7 +89,7 @@ ggplot() +
   geom_sf(
     data      = chi_cts,
     aes(color = cta_line),
-    linewidth = 0.9
+    linewidth = 0.4
   ) +
   
   scale_color_manual(
