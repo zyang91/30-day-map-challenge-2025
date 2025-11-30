@@ -6,7 +6,7 @@ library(tidyterra)
 library(lubridate)
 library(geodata)
 
-bearer <- "Your_token"
+bearer <- "Paste Your NASA bearer token here"
 
 #get Canada boundary as sf
 roi_sf <- geodata::gadm(country = "CAN", level = 0, path = "data/gadm") |>
@@ -31,7 +31,7 @@ ggplot() +
                        high = "red",
                        midpoint = 4.5,
                        na.value = "transparent") +
-  labs(title = "Nighttime Lights (Canada): October 2021",
+  labs(title = "Nighttime Lights (Canada): February 5, 2021",
        subtitle = "Made by Zhanchao Yang") +
   coord_sf() +
   theme_void() +
