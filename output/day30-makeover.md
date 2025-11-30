@@ -1,12 +1,13 @@
 # Day 30 of 30 Day Map Challenge - Makeover
 
-**Day 30 (Makeover)**: For the final day of the 30 Day Map Challenge 2025, I revisited and improved a map I co-created with Xian Lu Lee (MUSA alumni '24) during a previous challenge. The original hexagon map visualized children traffic fatality rates at the state level across the United States, using data from the National Highway Traffic Safety Administration (NHTSA) and the Department of Transportation. This makeover focuses on enhancing the visual communication, statistical accuracy, and overall design quality of the visualization.
+**Day 30 (Makeover)**: For the final day of the 30 Day Map Challenge 2025, I revisited and improved a map I co-created with Xian Lu Lee (MUSA'24) during the 2024 30DayMapChallenge. The original hexagon map visualized child traffic fatality rates at the state level across the United States, using data from the National Highway Traffic Safety Administration (NHTSA) and the Department of Transportation. This makeover focuses on enhancing the visual communication, statistical accuracy, and overall design quality of the visualization. This map improvement utilizes help from Gemini3 (LLM).
 
 ## Before & After
+### Previous Version 
+![Previous Challenge Map](../data/day30/previous-challenge.png) 
 
-| Previous Version | Improved Version |
-|:----------------:|:----------------:|
-| ![Previous Challenge Map](../data/day30/previous-challenge.png) | ![Makeover Map](day30-makeover.png) |
+### Improved Version 
+![Makeover Map](day30-makeover.png) 
 
 ## Key Improvements
 
@@ -44,10 +45,10 @@ scale_fill_scico(
 )
 ```
 
-The `scico` package provides scientifically accurate color palettes that are perceptually uniform, colorblind-friendly, and print well in grayscale.
+The `scico` package provides perceptually uniform and scientifically accurate color palettes, colorblind-friendly, and print well in grayscale.
 
 ### 3. Classification Method (Quantiles → Continuous Scale)
-**Previous**: Discrete quantile-based classification that groups states into 5 equal-count bins
+**Previous**: Discrete quantile-based classification that groups states into five equal-count bins
 **Improved**: Continuous color gradient that better represents the actual data distribution, allowing viewers to perceive subtle differences between states with similar rates
 
 ### 4. Typography and Readability
@@ -126,7 +127,9 @@ state_dets <- read.csv('data/day30/state-details.csv')
 - **Population Data**: [U.S. Census Bureau American Community Survey (ACS) 2022 5-Year Estimates](https://www.census.gov/programs-surveys/acs) - Variable B09001_001 representing population under 18 by state
 - **Hexagonal Grid**: [US States Hexgrid GeoPackage](https://team.carto.com/u/andrew/tables/andrew.us_states_hexgrid/public/map) - Equal-area hexagonal representation of US states for cartogram visualization
 
----
+## Acknowledgement
+
+I am grateful to my friend and colleague, Xian Lu, for visualizing last year’s map using the data I cleaned. I also acknowledge the improvement suggestions from large language models such as Gemini and ChatGPT.
 
 ## Conclusion: Reflecting on 30 Days of Mapping
 
@@ -141,6 +144,6 @@ This 30 Day Map Challenge 2025 has been an incredible journey of exploration, le
 
 This final makeover exercise demonstrates that cartography is an iterative process—maps can always be improved with fresh perspectives, better tools, and evolved design sensibilities. The improvements made today showcase how attention to detail in color theory, typography, and data presentation can transform a good map into a great one.
 
-Thank you for following along this challenge. Here's to many more maps in the future! 🗺️
+Thank you for following along with this challenge. Here's to many more maps in the future! 🗺️
 
 *— Zhanchao Yang, November 2025*
