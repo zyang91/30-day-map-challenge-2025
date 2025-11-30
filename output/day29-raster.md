@@ -1,6 +1,6 @@
 # Day 29 of 30 Day Map Challenge - Raster
 
-**Day 29 (Raster)**: I created a land cover visualization of Philadelphia, Pennsylvania using the National Land Cover Database (NLCD) 2019 data. This raster map showcases the diverse land cover types within the city boundaries, highlighting the urban fabric through different development intensities—from open space to high-intensity developed areas—along with natural features like forests, wetlands, and water bodies. The color palette follows the standard NLCD classification scheme, making the map immediately recognizable to those familiar with land cover mapping. Philadelphia's urban character is clearly visible, with developed areas (red tones) dominating the landscape, interspersed with green spaces representing deciduous forests and parks, and the Schuylkill and Delaware Rivers appearing in blue along the city's edges.
+**Day 29 (Raster)**: I created a land cover visualization of Philadelphia, Pennsylvania, using the National Land Cover Database (NLCD) 2019 data. This raster map showcases the diverse land cover types within the city boundaries, highlighting the urban fabric through different development intensities—from open space to high-intensity developed areas—along with natural features like forests, wetlands, and water bodies. The color palette follows the standard NLCD classification scheme, making the map immediately recognizable to those familiar with land cover mapping. Philadelphia's urban character is clearly visible, with developed areas (red tones) dominating the landscape, interspersed with green spaces representing deciduous forests and parks, and the Schuylkill and Delaware Rivers appearing in blue along the city's edges.
 
 ![](day29_philly_nlcd19.png)
 
@@ -15,10 +15,3 @@
 **Data Sources:**
 - **Land Cover Data**: [USGS National Land Cover Database (NLCD) 2019](https://www.mrlc.gov/data/nlcd-2019-land-cover-conus) - 30-meter resolution land cover classification for the conterminous United States, providing detailed categorization of land use and land cover types
 - **City Boundary**: [U.S. Census Bureau TIGER/Line Shapefiles 2023](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html) - Philadelphia city boundary from Pennsylvania places via tigris package
-
-**Land Cover Classes Featured:**
-- **Open Water** - Rivers, lakes, and other water bodies
-- **Developed, Open Space** - Areas with a mixture of some constructed materials with mostly vegetation (lawns, parks)
-- **Developed, Low/Medium/High Intensity** - Urban areas with varying degrees of impervious surface coverage
-- **Deciduous/Evergreen/Mixed Forest** - Tree-covered areas within the city
-- **Woody Wetlands & Emergent Herbaceous Wetlands** - Wetland areas along waterways
